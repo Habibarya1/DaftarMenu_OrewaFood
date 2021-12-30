@@ -70,6 +70,9 @@ public class DashBoardActivity extends RecyclerView.Adapter<DashBoardActivity.Da
         else if(Profile.equals("FotoMakanan3")){
             holder.profile.setImageResource(R.drawable.onigiri);
         }
+        else if(Profile.equals("FotoMakanan4")){
+            holder.profile.setImageResource(R.drawable.ramen);
+        }
 
         holder.harga.setText(Harga);
     }
